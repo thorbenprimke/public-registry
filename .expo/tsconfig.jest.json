@@ -1,0 +1,13 @@
+{
+  "extends": "/Users/thorben/projects/expo/packages/expo-notifications/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "typeRoots": [
+      "./node_modules/@types",
+      "../node_modules/@types",
+      "../../node_modules/@types",
+      "../../../node_modules/@types",
+      "/Users/thorben/projects/expo/packages/expo-module-scripts/ts-declarations"
+    ]
+  }
+}
